@@ -23,7 +23,7 @@ repos:
     rev: 6.0.0
     hooks:
       - id: flake8
-        args: ["--ignore=E501"]
+        args: ["--ignore=E501,W503"]
   - repo: https://github.com/asottile/pyupgrade
     rev: v3.3.2
     hooks:
